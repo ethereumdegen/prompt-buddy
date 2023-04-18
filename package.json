@@ -1,7 +1,7 @@
 {
   "name": "prompt-buddy",
-  "version": " 0.10.0",
-  "description": "",
+  "version": " 0.10.1",
+  "description": "A local gpt prompt forwarding utility",
   "main": "index.ts",
   "bin": {
     "prompt-buddy": "./dist/index.js"
