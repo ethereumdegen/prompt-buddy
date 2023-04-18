@@ -1,6 +1,6 @@
 
 
-## NPM Buddy
+## Prompt Buddy
 
 A local prompt forwarding utility which digests prompts as arguments and sends them off to a local prompt-relay server (port 6100 default). 
 
