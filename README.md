@@ -2,10 +2,24 @@
 
 ## NPM Buddy
 
-A global npm package. When you give it a command, it will search the local repo folder for a package.json.  Then it will ask chatGPT to select the correct script to run based on your query.  It will double check with you to make sure you want to run that and if so, it will run it . 
-
-Can also list the scripts in your project.  
+A local prompt forwarding utility which digests prompts as arguments and sends them off to a local prompt-relay server (port 6100 default). 
 
 
+### Pre-requisites 
 
-reply only with the name of the script that I should run for my query.  scripts: ["server","test","test:migrate","lint","format","services","db"] .  query: "migrate the test db"
+Be sure to be running a prompt-server locally such as:
+
+[modular-gpt](https://github.com/ethereumdegen/modular-gpt)
+
+
+
+### How to use 
+
+```
+npm install -g prompt-buddy 
+```
+ 
+```
+ prompt-buddy what color is the sky ? 
+```
+
